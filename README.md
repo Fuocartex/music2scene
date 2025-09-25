@@ -1,4 +1,4 @@
-# Muse2Scene 🎶🎨
+# Music2Scene 🎶🎨
 Generazione di immagini guidate dalla musica in tempo reale.
 
 ## 📌 Obiettivo
@@ -7,8 +7,8 @@ Questo progetto esplora la generazione di immagini condizionate da audio (musica
 ## 🔧 Installazione
 Clona la repo e crea un ambiente:
 ```bash
-git clone https://github.com/<username>/muse2scene.git
-cd muse2scene
+git clone https://github.com/<username>/music2scene.git
+cd music2scene
 python -m venv .venv
 source .venv/bin/activate   # su Windows: .venv\Scripts\activate
 pip install -r requirements.txt
