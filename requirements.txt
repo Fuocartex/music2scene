@@ -1,0 +1,17 @@
+torch
+transformers
+diffusers
+accelerate
+huggingface-hub
+torchaudio
+librosa
+soundfile
+sounddevice
+numpy
+scipy
+Pillow
+tqdm
+fastapi
+uvicorn[standard]
+websockets
+gradio
