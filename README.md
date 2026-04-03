@@ -5,6 +5,7 @@ This project generates images from audio using a pre-trained model.
 
 📂 Struttura del progetto
 
+```bash
 src/
 ├── inf1.py
 ├── adapter.py
@@ -33,7 +34,7 @@ data/
 ├── panns/
 ├── raw audio/ contains test audio
 ├── slices/ coontains slice for test of raw audio
-
+```
 
 ---
 
