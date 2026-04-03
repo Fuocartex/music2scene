@@ -110,7 +110,7 @@ live_frames/   → generated images
 
 # 🧪 SECOND PART — Other scripts (optional)
 
-The `extra/` folder contains additional scripts for training and data processing.
+The `train&test/` folder contains additional scripts for training and data processing.
 
 These are NOT required to run the main system. But it required GPU and CUDA.
 
@@ -165,7 +165,7 @@ python extra/diagnostic_adapter_diversity.py
 * Clone repo
 * Create venv
 * Install requirements
-* Run `core/run.py`
+* Run `src/run.py`
 
 Everything else is optional.
 
