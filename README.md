@@ -63,10 +63,19 @@ venv\Scripts\activate         # Windows
 
 # 📦 3. Install requirements
 
+WARNING!! The requirements file is for running CPU which is strongly discouraged as the program is very slow at generating images so the real-time part is no longer synchronized.
+
+To run it on GPU, manually install torch with CUDA and the versions of the libraries indicated in requiremente_exact (not via file since they are new versions not recognized).
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
 ```bash
 pip install -r requirements.txt
 ```
-
+Example: To install the new version of torch for CUDA. Check the python version and GPU requirement.
+```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu130
+```
 ---
 
 # ▶️ 4. Run the project (MAIN)
@@ -116,7 +125,11 @@ These are NOT required to run the main system. But it required GPU and CUDA.
 
 These were RUN in windows system with CUDA. 
 
-WARNING!! To RUN copy this files in the main folder src. 
+To RUN copy this files in the main folder src and download the extra file at these link 
+```bash
+https://drive.google.com/drive/folders/1_lrUd72yEYG0hUUVuy5NnJK50nRghAti?usp=sharing.
+```
+There you can find all previous checkpoint and test, and the Dataset used for training. 
 
 ---
 
