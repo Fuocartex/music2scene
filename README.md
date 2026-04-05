@@ -63,6 +63,8 @@ To run it on GPU, manually install torch with CUDA and the versions of the libra
 
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
+The live show is implemented for windows it may not work in different system. 
+
 ```bash
 pip install -r requirements.txt
 ```
