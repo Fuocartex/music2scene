@@ -48,7 +48,7 @@ def stream_and_slice(audio_path, out_dir, slice_sec=2.0, sr=16000):
 
 if __name__ == "__main__":
     stream_and_slice(
-        audio_path="sanfracesco.wav",
+        audio_path="input.wav",
         out_dir="live_slices",
         slice_sec=8.0
     )

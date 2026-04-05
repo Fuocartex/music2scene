@@ -10,6 +10,8 @@ import sys
 import select
 import time
 
+import msvcrt
+
 
 class InferencePipeline:
     def __init__(self, adapter_ckpt="adapter_best.pt", device="cuda", n_tokens=16):
@@ -158,7 +160,7 @@ if __name__ == "__main__":
                     wav_path,
                     steps=10,
                     guidance=3.5,
-                    seed=seed
+                    seed=42
                 )
 
                 out_name = out_dir / f"{wav_path.stem}.png"

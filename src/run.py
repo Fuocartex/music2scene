@@ -5,6 +5,8 @@ import subprocess
 import sys
 import time
 
+IS_WINDOWS = sys.platform.startswith("win")
+
 dirs = [
     "live_slices",
     "live_frames",
@@ -34,7 +36,11 @@ print(" Avvio pipeline completa...\n")
 
 for cmd in commands:
     print(f" Avvio: {' '.join(cmd)}")
-    subprocess.Popen(["cmd", "/k", cmd], creationflags=subprocess.CREATE_NEW_CONSOLE)
+    if IS_WINDOWS:
+        subprocess.Popen(["cmd", "/k", cmd], creationflags=subprocess.CREATE_NEW_CONSOLE)
+    else:
+        subprocess.Popen(cmd.split())
+    
     #processes.append(p)
     if cmd == "python src\inf1.py":
         time.sleep(20)
