@@ -90,7 +90,7 @@ input.wav
 Then run:
 
 ```bash
-python core/run.py
+python src/run.py
 ```
 
 This will:
@@ -136,7 +136,7 @@ There you can find all previous checkpoint and test, and the Dataset used for tr
 ## Preprocessing audio
 
 ```bash
-python extra/preprocess.py
+python src/preprocess.py
 ```
 
 ---
@@ -144,7 +144,7 @@ python extra/preprocess.py
 ## Extract CLAP embeddings
 
 ```bash
-python extra/extract_embeddings.py
+python src/extract_embeddings.py
 ```
 
 ---
@@ -152,7 +152,7 @@ python extra/extract_embeddings.py
 ## Analyze dataset
 
 ```bash
-python extra/analyze_audio_diversity.py
+python src/analyze_audio_diversity.py
 ```
 
 ---
@@ -160,7 +160,7 @@ python extra/analyze_audio_diversity.py
 ## Train adapter (optional)
 
 ```bash
-python extra/train_adapter_robust.py
+python src/train_adapter_robust.py
 ```
 
 ---
@@ -168,7 +168,7 @@ python extra/train_adapter_robust.py
 ## Diagnostics
 
 ```bash
-python extra/diagnostic_adapter_diversity.py
+python src/diagnostic_adapter_diversity.py
 ```
 
 ---
