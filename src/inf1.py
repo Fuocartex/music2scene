@@ -10,8 +10,6 @@ import sys
 import select
 import time
 
-import msvcrt
-
 
 class InferencePipeline:
     def __init__(self, adapter_ckpt="adapter_best.pt", device="cuda", n_tokens=16):
