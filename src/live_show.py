@@ -19,7 +19,7 @@ last_frame = None
 import pygame
 
 pygame.mixer.init()
-pygame.mixer.music.load("sanfracesco.wav")
+pygame.mixer.music.load("input.wav")
 
 audio_started = False
 
