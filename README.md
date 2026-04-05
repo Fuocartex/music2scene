@@ -28,12 +28,6 @@ adapter_new.pt
 input.wav
 requirements.txt
 README.md
-data/
-├── cache/
-├── musicacaps/  Contains musicacps row audio and trainng data
-├── panns/
-├── raw audio/ contains test audio
-├── slices/ coontains slice for test of raw audio
 ```
 
 ---
@@ -128,6 +122,14 @@ These were RUN in windows system with CUDA.
 To RUN copy this files in the main folder src and download the extra file at these link 
 ```bash
 https://drive.google.com/drive/folders/1_lrUd72yEYG0hUUVuy5NnJK50nRghAti?usp=sharing.
+
+
+data/
+├── cache/
+├── musicacaps/  Contains musicacps row audio and trainng data
+├── panns/
+├── raw audio/ contains test audio
+├── slices/ coontains slice for test of raw audio
 ```
 There you can find all previous checkpoint and test, and the Dataset used for training. 
 
