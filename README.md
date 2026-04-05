@@ -88,7 +88,7 @@ input.wav
 ```
 
 Then run:
-
+At fisrt run the second prompt could take longer to load the pipeline so let it run. 
 ```bash
 python src/run.py
 ```
