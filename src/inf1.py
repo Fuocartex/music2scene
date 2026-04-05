@@ -156,8 +156,8 @@ if __name__ == "__main__":
 
                 img = ip.gen_from_audio(
                     wav_path,
-                    steps=30,
-                    guidance=5,
+                    steps=10,
+                    guidance=3.5,
                     seed=seed
                 )
 
