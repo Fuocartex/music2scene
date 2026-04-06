@@ -27,8 +27,10 @@ src/
 adapter_new.pt
 input.wav
 requirements.txt
-requirements_exact.txt
-reuirements_basic.txt
+sother requirements/
+├──requirements_exact.txt
+├──reuirements_basic.txt
+
 README.md
 ```
 
