@@ -27,6 +27,7 @@ src/
 adapter_new.pt
 input.wav
 requirements.txt
+requirements_exact.txt
 README.md
 ```
 
@@ -52,13 +53,11 @@ venv\Scripts\activate         # Windows
 
 # 📦 3. Install requirements
 
-WARNING!! The requirements file is for running CPU which is strongly discouraged as the program is very slow at generating images so the real-time part is no longer synchronized.
+WARNING!! The requirements file is for running on CPU which is strongly discouraged as the program is very slow at generating images so the real-time part is no longer synchronized.
 
-To run it on GPU, manually install torch with CUDA and the versions of the libraries indicated in requiremente_exact (not via file since they are new versions not recognized).
+To run it on GPU, manually install torch with CUDA and the versions of the libraries indicated in requirements_exact (not via file since they are new versions not recognized).
 
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-
-The live show is implemented for windows it may not work in different system. In the google drive link in the folder output ther is a video of how it works. 
+The live show is implemented for windows it may not work on different systems. In the google drive link in the folder output there is a video of how it works. 
 
 ```bash
 pip install -r requirements.txt
@@ -79,7 +78,7 @@ input.wav
 ```
 
 Then run:
-At fisrt run the second prompt could take longer to load the pipeline so let it run. 
+At fisrt run the second cmd could take longer to load the pipeline so let it run. 
 ```bash
 python src/run.py
 ```
@@ -114,9 +113,9 @@ The `train&test/` folder contains additional scripts for training and data proce
 
 These are NOT required to run the main system. But it required GPU and CUDA.
 
-These were RUN in windows system with CUDA. 
+These were RUN on windows system with CUDA. 
 
-To RUN copy this files in the main folder src and download the extra file at these link 
+To RUN copy this files in the main folder src and download the extra files at these link 
 ```bash
 https://drive.google.com/drive/folders/1_lrUd72yEYG0hUUVuy5NnJK50nRghAti?usp=sharing.
 
@@ -156,7 +155,7 @@ python src/analyze_audio_diversity.py
 
 ---
 
-## Train adapter (optional)
+## Train adapter
 
 ```bash
 python src/train_adapter_robust.py
