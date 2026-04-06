@@ -67,6 +67,7 @@ pip install -r requirements.txt
 ```
 Example: To install the new version of torch for CUDA. Check the python version and GPU requirement.
 ```bash
+pip uninstall torch torchvision torchaudio
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu130
 ```
 ---
