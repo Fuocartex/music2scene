@@ -85,7 +85,7 @@ input.wav
 ```
 
 Then run:
-At fisrt run the second cmd could take longer to load the pipeline so let it run. 
+At first run the second cmd could take longer to load the pipeline so let it run. 
 ```bash
 python src/run.py
 ```
