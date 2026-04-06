@@ -35,13 +35,8 @@ README.md
 # 📥 1. Clone the repository
 
 ```bash
-git clone --no-checkout https://github.com/your-repo/audio-to-image.git
-cd audio-to-image
+git clone https://github.com/Fuocartex/music2scene.git
 
-git sparse-checkout init --cone
-git sparse-checkout set src adapter_new.pt requirements.txt input.wav
-
-git checkout```
 
 ---
 
