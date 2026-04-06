@@ -44,6 +44,7 @@ git clone https://github.com/Fuocartex/music2scene.git
 # ⚙️ 2. Create virtual environment
 
 ```bash
+cd music2scene
 python -m venv venv
 source venv/bin/activate      # Linux / Mac
 venv\Scripts\activate         # Windows
