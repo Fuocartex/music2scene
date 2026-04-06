@@ -26,9 +26,9 @@ print(" Pulizia completata")
 processes = []
 
 commands = [
-    "python src\live_show.py",
-    "python src\inf1.py", 
-    "python src\live_slicing.py",     
+    "python src/live_show.py",
+    "python src/inf1.py", 
+    "python src/live_slicing.py",     
                    
 ]
 
@@ -42,7 +42,7 @@ for cmd in commands:
         subprocess.Popen(cmd.split())
     
     #processes.append(p)
-    if cmd == "python src\inf1.py":
+    if cmd == "python src/inf1.py":
         time.sleep(20)
     else:
         time.sleep(2)
