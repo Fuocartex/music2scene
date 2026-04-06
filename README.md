@@ -28,6 +28,7 @@ adapter_new.pt
 input.wav
 requirements.txt
 requirements_exact.txt
+reuirements_basic.txt
 README.md
 ```
 
@@ -61,6 +62,8 @@ WARNING!! The requirements file is for running on CPU which is strongly discoura
 To run it on GPU, manually install torch with CUDA and the versions of the libraries indicated in requirements_exact (not via file since they are new versions not recognized).
 
 The live show is implemented for windows it may not work on different systems. In the google drive link in the folder output there is a video of how it works. 
+
+If requirements doesn't work run requirements_basic. It is a shorter list of requirements for running only the run.py file. 
 
 ```bash
 pip install -r requirements.txt
