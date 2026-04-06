@@ -54,6 +54,8 @@ venv\Scripts\activate         # Windows
 
 # 📦 3. Install requirements
 
+Python version 3.13.12
+
 WARNING!! The requirements file is for running on CPU which is strongly discouraged as the program is very slow at generating images so the real-time part is no longer synchronized.
 
 To run it on GPU, manually install torch with CUDA and the versions of the libraries indicated in requirements_exact (not via file since they are new versions not recognized).
