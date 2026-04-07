@@ -136,8 +136,8 @@ if __name__ == "__main__":
     processed = set()
 
     seed = 42
-    seed = random.randint(0, 2**32 - 1)
-    print(seed)
+    #seed = random.randint(0, 2**32 - 1)
+    #print(seed)
     guidance = 3.5
 
     print("Processo 2 avviato (image generation)")
