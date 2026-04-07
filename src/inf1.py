@@ -142,7 +142,7 @@ if __name__ == "__main__":
     print(seed)
     guidance = 3.5
 
-    print("🚀 Processo 2 avviato (image generation)")
+    print("Processo 2 avviato (image generation)")
 
     while True:
 
@@ -154,7 +154,7 @@ if __name__ == "__main__":
                 continue
 
             try:
-                print(f"🎧 Nuovo slice trovato: {wav_path}")
+                print(f"Nuovo slice trovato: {wav_path}")
 
                 img = ip.gen_from_audio(
                     wav_path,
@@ -176,10 +176,3 @@ if __name__ == "__main__":
         time.sleep(0.5)  # evita loop aggressivo
 
 
-"""
-3390492916
-1868050174 san francesco 
-2640770248 san francesco
-1902710743 san francesco
-4292456150 san francesco
-"""
