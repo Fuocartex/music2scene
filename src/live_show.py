@@ -9,7 +9,7 @@ shown = set()
 FPS = 30
 frame_delay = 1 / FPS
 
-print("🎥 Live viewer avviato")
+print("Live viewer avviato")
 
 cv2.namedWindow("LIVE", cv2.WINDOW_NORMAL)
 cv2.resizeWindow("LIVE", 1280, 720)  
@@ -35,7 +35,7 @@ while True:
     new_images = [p for p in images if p not in shown]
 
     if new_images and not audio_started:
-        print("🔊 Start audio")
+        print("Start audio")
         pygame.mixer.music.play()
         audio_started = True
 
