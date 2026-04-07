@@ -37,7 +37,6 @@ class AudioToPromptAdapter(nn.Module):
         self.backbone = nn.Sequential(*layers)
         self.proj = nn.Linear(hidden, n_tokens * hidden_dim)
 
-        # opzionale: mappa anche direttamente l’audio → feature per residuo
         if use_residual:
             self.residual_proj = nn.Linear(audio_dim, n_tokens * hidden_dim)
 
